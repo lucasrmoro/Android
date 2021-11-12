@@ -9,7 +9,7 @@
    * [Solução](#solução)
    * [Componentes e Funcionalidades](#componentes-e-funcionalidades)
    * [Como utilizar](#como-utilizar)
-		* [Visulização dos dados do cliente](#visualização-dos-dados-do-cliente)
+		* [Visualização dos dados do cliente](#visualização-dos-dados-do-cliente)
 		* [Visualização do histórico de pedidos](#visualização-do-histórico-de-pedidos)
 		* [Visualização das legendas do histórico de pedidos](#visualização-das-legendas-do-histórico-de-pedidos)
 		* [Visualização dos alvarás](#visualização-dos-alvarás)
