@@ -18,6 +18,7 @@
       * [Tela principal](#tela-principal)
       * [Tela dados do cliente](#tela-dados-do-cliente)
       * [Tela histórico de pedidos](#tela-histórico-de-pedidos)
+      * [Pesquisar por pedido](#pesquisar-por-pedido)
       * [Caixa de legendas](#caixa-de-legendas)
       * [Tela de alvarás](#tela-de-alvarás)
    * [Arquitetura](#arquitetura)
@@ -41,7 +42,7 @@ Desenvolver o design e as funcionalidades do aplicativo utilizando Kotlin, Retro
 | Bottom Navigation View Funcional                                |         ✔️           |
 | Tela histórico de pedidos com legendas                          |         ✔️           |
 | Seta para voltar para tela anterior                             |         ✔️           |
-| Campo de pesquisa na tela de hist. de pedidos                   |         ❌          |
+| Campo de pesquisa na tela de hist. de pedidos                   |         ✔️           |
 
 ## Como utilizar
 
@@ -75,6 +76,10 @@ Para visualizar os alvarás, antes você precisará pressionar um dos botões ci
 ### Tela histórico de pedidos:
 
 <img src="https://github.com/lucasrmoro/Android/blob/master/img/tela-hist%C3%B3rico-de-pedidos.gif" width="250" height="500" /> 
+
+### Pesquisar por pedido:
+
+<img src="https://github.com/lucasrmoro/Android/blob/master/img/pesquisa.gif" width="250" height="500" /> 
 
 ### Caixa de legendas:
 
