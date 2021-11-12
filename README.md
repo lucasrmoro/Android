@@ -5,7 +5,8 @@
 
 # Tabela de conteúdos
 <!--ts-->
-   * [Descrição do projeto](#descrição-do-projeto)
+   * [Proposta e descrição](#proposta-e-descrição)
+   * [Solução](#solução)
    * [Como utilizar](#como-utilizar)
 		* [Visulização dos dados do cliente](#visualização-dos-dados-do-cliente)
 		* [Visualização do histórico de pedidos](#visualização-do-histórico-de-pedidos)
@@ -21,14 +22,13 @@
    * [Arquitetura](#arquitetura)
 	   * [Atual](#atual)
 	   * [Desejável](#desejável)
-   * [Componentes utilizados](#componentes-utilizados)
 <!--te-->
 
-## Descrição do projeto
+## Proposta e descrição
 Este é um [desafio proposto pela MaximaTech](https://github.com/lucasrmoro/Android/blob/master/README_CHALLENGE.md) pela MaximaTech com o intuito de testar os conhecimentos do desafiante em Android. O Aplicativo conta com várias telas, dentre elas estão uma para listar os dados do cliente, outra para listar o histórico de pedidos e por fim a lista de alvarás
 
 ## Solução
-Desenvolver as funcionalidades e design do aplicativo baseado nos arquivos, imagens, instruções e recomendações deixados pela MaximaTech no seguinte [documento](https://github.com/lucasrmoro/Android/blob/master/README_CHALLENGE.md).
+Desenvolver o design e as funcionalidades do aplicativo utilizando Kotlin, Retrofit, MVVM Architecture, Jetpack Components.
 
 ## Como utilizar
 
@@ -80,10 +80,3 @@ Para visualizar os alvarás você precisará pressionar um dos botões citados a
 ### Desejável:
 
 <img src="https://github.com/lucasrmoro/Android/blob/master/img/final-architecture.png" width="600" height="500" /> 
-
-## Componentes Utilizados
-
-- Kotlin
-- Retrofit
-- Jetpack Components
-- MVVM Architecture
