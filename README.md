@@ -25,10 +25,10 @@
 <!--te-->
 
 ## Descrição do projeto
-Este é um [desafio proposto pela MaximaTech](https://github.com/lucasrmoro/Android/blob/master/README_CHALLENGE.md) pela MaximaTech com o intuito de testar os conhecimentos do indivíduo em Android. O Aplicativo conta com várias telas, dentre elas estão uma para listar os dados do cliente, outra para listar o histórico de pedidos e por fim a lista de alvarás
+Este é um [desafio proposto pela MaximaTech](https://github.com/lucasrmoro/Android/blob/master/README_CHALLENGE.md) pela MaximaTech com o intuito de testar os conhecimentos do desafiante em Android. O Aplicativo conta com várias telas, dentre elas estão uma para listar os dados do cliente, outra para listar o histórico de pedidos e por fim a lista de alvarás
 
 ## Solução
-Desenvolver as funcionalidades e design do aplicativo baseado nos arquivos , imagens, instruções e recomendações deixados pela MaximaTech no seguinte [documento](https://github.com/lucasrmoro/Android/blob/master/README_CHALLENGE.md).
+Desenvolver as funcionalidades e design do aplicativo baseado nos arquivos, imagens, instruções e recomendações deixados pela MaximaTech no seguinte [documento](https://github.com/lucasrmoro/Android/blob/master/README_CHALLENGE.md).
 
 ## Como utilizar
 
