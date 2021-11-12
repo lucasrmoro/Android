@@ -75,11 +75,11 @@ Para visualizar os alvarás você precisará pressionar um dos botões citados a
 
 ### Atual:
 
-<img src="https://github.com/lucasrmoro/Android/blob/master/img/currently-architecture.png" width="600" height="350" /> 
+<img src="https://github.com/lucasrmoro/Android/blob/master/img/currently-architecture.png" width="600" height="500" /> 
 
 ### Desejável:
 
-<img src="https://github.com/lucasrmoro/Android/blob/master/img/final-architecture.png" width="600" height="350" /> 
+<img src="https://github.com/lucasrmoro/Android/blob/master/img/final-architecture.png" width="600" height="500" /> 
 
 ## Componentes Utilizados
 
