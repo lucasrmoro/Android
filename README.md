@@ -46,7 +46,7 @@ Desenvolver o design e as funcionalidades do aplicativo utilizando Kotlin, Retro
 ## Como utilizar
 
 ### Visualização dos dados do cliente
-Para visualizar os dados do cliente, pressiona o primeiro botão da tela principal denominado "Clientes".
+Para visualizar os dados do cliente, pressione o primeiro botão da tela principal denominado "Clientes".
 &nbsp;
 ### Visualização do histórico de pedidos
 Para visualizar o histórico de pedidos, pressione o segundo botão da tela principal denominado "Pedidos".
@@ -55,7 +55,7 @@ Para visualizar o histórico de pedidos, pressione o segundo botão da tela prin
 Para visualizar o as legendas do histórico de pedidos, dentro da tela de histórico de pedidos pressione o botão pontilhado no canto superior direito e pressione "Legendas".
 &nbsp;
 ### Visualização dos alvarás
-Para visualizar os alvarás você precisará pressionar um dos botões citados acima e navegar pela barra de tarefas inferior do aplicativo, sendo o ultímo botão a direita, denominado "Álvaras".
+Para visualizar os alvarás, antes você precisará pressionar um dos botões citados acima e navegar pela barra de tarefas inferior do aplicativo, sendo o últímo botão a direita, denominado "Alvarás".
 &nbsp;
 
 ## Demonstrações
