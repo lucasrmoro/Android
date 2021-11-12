@@ -80,6 +80,7 @@ class HistoricoPedidosFragment : Fragment() {
 
         val search = menu.findItem(R.id.pesquisar_menu_action)
         val searchView = search?.actionView as SearchView
+        searchView.maxWidth = Int.MAX_VALUE
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 adapter.filter.filter(query)

@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import android.widget.Filter
 import android.widget.Filterable
 import android.widget.ImageView
-import android.widget.Toast
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -19,10 +18,10 @@ import java.util.*
 class HistoricoPedidosAdapter :
     ListAdapter<Pedido, HistoricoPedidosAdapter.ViewHolder>(DiffCallback()), Filterable {
 
-    private var list = mutableListOf<Pedido>()
+    private var adapterList = mutableListOf<Pedido>()
 
     fun updateList(list: MutableList<Pedido>?) {
-        this.list = list!!
+        this.adapterList = list!!
         submitList(list)
     }
 
@@ -113,9 +112,9 @@ class HistoricoPedidosAdapter :
         override fun performFiltering(constraint: CharSequence?): FilterResults {
             val filteredList = mutableListOf<Pedido>()
             if (constraint == null || constraint.isEmpty()) {
-                filteredList.addAll(list)
+                filteredList.addAll(adapterList)
             } else {
-                list.forEach {
+                adapterList.forEach {
                     if (it.nomecliente.lowercase(Locale.getDefault())
                             .contains(constraint.toString().lowercase(Locale.getDefault()))
                     ) {
