@@ -7,6 +7,7 @@
 <!--ts-->
    * [Proposta e descrição](#proposta-e-descrição)
    * [Solução](#solução)
+   * [Componentes e Funcionalidades](#componentes-e-funcionalidades)
    * [Como utilizar](#como-utilizar)
 		* [Visulização dos dados do cliente](#visualização-dos-dados-do-cliente)
 		* [Visualização do histórico de pedidos](#visualização-do-histórico-de-pedidos)
@@ -29,6 +30,18 @@ Este é um [desafio proposto pela MaximaTech](https://github.com/lucasrmoro/Andr
 
 ## Solução
 Desenvolver o design e as funcionalidades do aplicativo utilizando Kotlin, Retrofit, MVVM Architecture, Jetpack Components.
+
+## Componentes e Funcionalidades
+
+|                Componentes e Funcionalidade                     |  Já implementado(a) |
+| --------------------------------------------------------------- | :-----------------: |
+| Splash Screen                                                   |         ✔️           |
+| Menu principal com botôes funcionais                            |         ✔️           |
+| Botão para verificar status do cliente                          |         ✔️           |
+| Bottom Navigation View Funcional                                |         ✔️           |
+| Tela histórico de pedidos com legendas                          |         ✔️           |
+| Seta para voltar para tela anterior                             |         ✔️           |
+| Campo de pesquisa na tela de hist. de pedidos                   |         ❌          |
 
 ## Como utilizar
 
