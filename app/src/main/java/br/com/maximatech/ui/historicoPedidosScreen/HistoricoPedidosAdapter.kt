@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.Filter
 import android.widget.Filterable
 import android.widget.ImageView
+import android.widget.Toast
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -39,24 +40,23 @@ class HistoricoPedidosAdapter :
         private val binding: ItemHistoricoPedidosBinding
     ) : RecyclerView.ViewHolder(binding.root) {
         fun bind(item: Pedido) {
-            checkCritica(item.critica)
-            item.legendas?.let { checkLegendas(it) }
-
+            binding.legenda0.setImageResource(0)
+            binding.legenda1.setImageResource(0)
+            binding.legenda2.setImageResource(0)
+            binding.critica.setImageResource(0)
             binding.numeroRcaErp.text = binding.root.resources.getString(
                 R.string.label_numero_rca_erp, item.numeroPedRca.toString(), item.numeroPedErp
             )
-
             binding.cliente.text = binding.root.resources.getString(
                 R.string.label_codigo_cliente, item.codigoCliente, item.nomecliente
             )
             binding.status.text = item.status
             binding.data.text = DateHelper.formatDate(item.data)
+            checkCritica(item.critica)
+            item.legendas?.let { checkLegendas(it) }
         }
 
         private fun checkLegendas(legendas: List<String?>) {
-            binding.legenda0.setImageDrawable(null)
-            binding.legenda1.setImageDrawable(null)
-            binding.legenda1.setImageDrawable(null)
             if (!legendas.isNullOrEmpty()) {
                 legendas.forEach {
                     var viewToBind: ImageView? = null
@@ -87,6 +87,7 @@ class HistoricoPedidosAdapter :
         }
 
         private fun checkCritica(content: String?) {
+            binding.labelCritica.visibility = View.GONE
             if (!content.isNullOrBlank()) {
                 binding.labelCritica.visibility = View.VISIBLE
                 when (content) {
