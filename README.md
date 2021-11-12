@@ -26,7 +26,7 @@
 <!--te-->
 
 ## Proposta e descrição
-Este é um [desafio proposto pela MaximaTech](https://github.com/lucasrmoro/Android/blob/master/README_CHALLENGE.md) pela MaximaTech com o intuito de testar os conhecimentos do desafiante em Android. O Aplicativo conta com várias telas, dentre elas estão uma para listar os dados do cliente, outra para listar o histórico de pedidos e por fim a lista de alvarás
+Este é um [desafio proposto pela MaximaTech](https://github.com/lucasrmoro/Android/blob/master/README_CHALLENGE.md) com o intuito de testar os conhecimentos do desafiante em Android. O Aplicativo conta com várias telas, dentre elas estão uma para listar os dados do cliente, outra para listar o histórico de pedidos e por fim a lista de alvarás
 
 ## Solução
 Desenvolver o design e as funcionalidades do aplicativo utilizando Kotlin, Retrofit, MVVM Architecture, Jetpack Components.
